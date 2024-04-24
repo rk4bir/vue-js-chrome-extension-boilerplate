@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div>
     <div style="text-align: center; margin-bottom: 15px; margin-top: 10px">
       <button :disabled="isLoading" @click="handlePing">
         <span v-if="!isLoading">ping</span>
