@@ -1,0 +1,32 @@
+{
+  "name": "vue-js-chrome-extension-boilerplate",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app/popup.js",
+  "scripts": {
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --env=development --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "dev": "npm run development -- --watch"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "facebook",
+    "interaction",
+    "insights"
+  ],
+  "author": "Raihan Kabir",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.4.38",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1",
+    "vue": "^3.4.24",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^2.7.16"
+  }
+}

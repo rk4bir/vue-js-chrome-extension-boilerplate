@@ -1,0 +1,43 @@
+{
+    "manifest_version": 3,
+    "name": "vue-js-chrome-extension-boilerplate",
+    "version": "1.0.0",
+    "description": "Vue, JavaScript with laravel-mix based chrome extension getting started template.",
+    "permissions": [
+        "storage",
+        "tabs",
+        "webRequest"
+    ],
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "content_scripts": [],
+    "host_permissions": [
+        "*://*.facebook.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon-16x16.png",
+            "32": "images/icon-32x32.png",
+            "48": "images/icon-48x48.png",
+            "128": "images/icon-128x128.png"
+        }
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "popup.html"
+            ],
+            "matches": [
+                "*://*/*"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "images/icon-16x16.png",
+        "32": "images/icon-32x32.png",
+        "48": "images/icon-48x48.png",
+        "128": "images/icon-128x128.png"
+    }
+}
