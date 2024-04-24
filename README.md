@@ -38,8 +38,8 @@ Run development app with hot reload
 npm run dev
 ```
 
-Build for dproduction
+Build for production
 
 ```bash
-npm run production
+npm run prod
 ```
