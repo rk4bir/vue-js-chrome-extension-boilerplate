@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "vue-js-chrome-extension-boilerplate",
     "version": "1.0.0",
-    "description": "Vue, JavaScript with laravel-mix based chrome extension getting started template.",
+    "description": "Vue + JavaScript + Laravel-mix chrome extension getting started project.",
     "permissions": [
         "storage",
         "tabs",
