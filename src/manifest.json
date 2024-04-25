@@ -13,7 +13,7 @@
     },
     "content_scripts": [],
     "host_permissions": [
-        "*://*.facebook.com/*"
+        "*://*/*"
     ],
     "action": {
         "default_popup": "popup.html",
