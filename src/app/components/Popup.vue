@@ -41,7 +41,7 @@ const handlePing = () => {
 };
 
 chrome.runtime.onMessage.addListener((message) => {
-  console.log(`[Popup.vue] message: ${JSON.stringify(message)}`);
+  // console.log(`[Popup.vue] message: ${JSON.stringify(message)}`);
 
   switch (message.type) {
     case "PING":
