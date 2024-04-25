@@ -2,7 +2,7 @@
   "name": "vue-js-chrome-extension-boilerplate",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "Vue + JavaScript + Laravel-mix chrome extension starter.",
   "main": "src/app/popup.js",
   "scripts": {
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --env=development --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -13,9 +13,8 @@
   "keywords": [
     "chrome",
     "extension",
-    "facebook",
-    "interaction",
-    "insights"
+    "starter",
+    "boilerplate"
   ],
   "author": "Raihan Kabir",
   "license": "ISC",
